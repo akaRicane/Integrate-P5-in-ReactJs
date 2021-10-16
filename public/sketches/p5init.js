@@ -39,7 +39,7 @@ function mouseClicked() {
   circles.push(new GrowingCircle(mouseX, mouseY));
   for(let i = 0; i <10;i++){
     globs.push(new Glob(mouseX, mouseY));
-  }
+  };
   song.play();
 }
 

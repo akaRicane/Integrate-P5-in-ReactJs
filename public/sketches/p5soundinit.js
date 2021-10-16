@@ -1,7 +1,7 @@
 let mic, fft;
 
 function setup() {
-    createCanvas(710, 200);
+    createCanvas(windowWidth, 300);
   
     // Create an Audio input
     mic = new p5.AudioIn();
@@ -15,7 +15,7 @@ function draw() {
     background(200);
   
     // Get the overall volume (between 0 and 1.0)
-    let vol = mic.getLevel();
+    let vol = mic.getLevel() * 2.5;
     fill(127);
     stroke(0);
   

@@ -4,11 +4,11 @@ import ScriptTag from 'react-script-tag';
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
+      <header className="App-header">
         <p>
-          Hello world
+          Integrate p5 in react !
         </p>
-      </header> */}
+      </header>
       <ScriptTag type="text/javascript" src='sketches/p5soundinit.js' />
     </div>
   );
