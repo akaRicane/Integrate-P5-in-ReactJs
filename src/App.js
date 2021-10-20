@@ -9,7 +9,7 @@ function App() {
           Integrate p5 in react !
         </p>
       </header>
-      <ScriptTag type="text/javascript" src='sketches/main.js' />
+      <ScriptTag type="text/javascript" src='sketches/p5soundinit.js' />
     </div>
   );
 }
